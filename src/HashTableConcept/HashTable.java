@@ -76,14 +76,15 @@ public class HashTable {
 		
 		
 		
-		// generics
-		Hashtable<String, String>   st3 = new Hashtable<String, String>();
 		// get the value from a key:
 		System.out.println(st1.get("C"));
 		
 		
 		// get the hashcode of hashtable object
 		System.out.println("the hash code value of st1:" + st1.hashCode());
+		
+		// generics
+				Hashtable<String, String>   st3 = new Hashtable<String, String>();
 		
 
 	}
