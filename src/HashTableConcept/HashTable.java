@@ -84,7 +84,7 @@ public class HashTable {
 		System.out.println("the hash code value of st1:" + st1.hashCode());
 		
 		// generics
-				Hashtable<String, String>   st3 = new Hashtable<String, String>();
+		Hashtable<String, String>   st3 = new Hashtable<String, String>();
 		
 
 	}
