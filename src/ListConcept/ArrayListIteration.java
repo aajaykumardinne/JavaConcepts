@@ -22,6 +22,7 @@ public class ArrayListIteration {
 			System.out.println(shows);
 		});
 
+		
 		// 2. Using Iterator:
 		System.out.println("---------print using iterator-------------");
 		Iterator<String> it = tvSeries.iterator();
@@ -30,6 +31,7 @@ public class ArrayListIteration {
 			System.out.println(shows);
 		}
 
+		
 		// 3. using iterator and java jdk 8 and forEachRemaining() Method
 		System.out.println("---- print using iterator and java jdk 8 and forEachRemaining() Method");
 
