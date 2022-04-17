@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class GenericArrayList {
 
+	// Revised
 	public static void main(String[] args) {
 		
 		

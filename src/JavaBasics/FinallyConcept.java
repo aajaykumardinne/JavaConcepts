@@ -2,15 +2,20 @@ package JavaBasics;
 
 public class FinallyConcept {
 
+	// Revised
 	public static void main(String[] args) {
 		//FinallyConcept.test1();
 		//test2();
-		 division();
+		FinallyConcept ft = new FinallyConcept();
+		ft.test2();
+		test1();
+		division();
 		
 	}
 	
 	// finally: is a Block
-	// finally is used in a try/catch statement to execute code "always".
+	// finally keyoword is always used in a try/catch statement 
+	// to execute code "always" even though there is any exception.
 	
 	public static void test1() {
 		try {
@@ -26,7 +31,7 @@ public class FinallyConcept {
 	}
 
 	// 
-	public static void test2() {
+	public  void test2() {
 		try {
 			System.out.println("inside test2 method");
 		}
@@ -39,11 +44,13 @@ public class FinallyConcept {
 	
 	public static void division() {
 		int i =10;
+		
 		try {
 			System.out.println("inside try block");
 			int k = i/0;
+			// Division by zero is an Arithmetic Exception in java
 		}
-		catch(NullPointerException e) {
+		catch(ArithmeticException e) {
 			System.out.println("inside catch block");
 			System.out.println("division by zero error");
 		}

@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class ArrayListDemo {
 
+	// Revised
 	public static void main(String[] args) {
 		
 		

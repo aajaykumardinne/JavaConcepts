@@ -4,7 +4,7 @@ public class B extends A{
 
 	public B() {
 		// super keyword is used to call the parent class constructor.
-		// it call be called only once inside the cosntructor and should be the first statement.
+		// it call be called only once inside the constructor and should be the first statement.
 		super();
 	}
 	

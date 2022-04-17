@@ -2,6 +2,7 @@ package JavaBasics;
 
 public class LoopsConcept {
 
+	//Revised
 	public static void main(String[] args) {
 
 
@@ -11,7 +12,7 @@ public class LoopsConcept {
 		int i = 0; // initialization
 		while(i<=10) {   // conditional 
 			System.out.println(i);
-			i=i+1; // incremental or decremental 
+			i=i+1;	 // incremental or decremental 
 		}
 
 		System.out.println("********************");

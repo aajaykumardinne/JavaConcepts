@@ -5,6 +5,7 @@ public class IfElseConcept {
 	public static void main(String[] args) {
 
 
+		// Revised
 		int a = 10;
 		int b = 20;
 		

@@ -4,6 +4,7 @@ public class StringConcatenation {
 
 //	static String NULL;
 
+	// Revised
 	public static void main(String[] args) {
 
 
@@ -12,6 +13,11 @@ public class StringConcatenation {
 		// print -- is used to print on the console.
 		int a= 100;
 		int b = 200;
+		int o = 500;
+		
+		System.out.println(a);
+		System.out.print(b);
+		System.out.println(o);
 		
 		String x = "Hello";
 		String y="World";
@@ -20,7 +26,7 @@ public class StringConcatenation {
 		double d = 10.33;
 		
 		
-//		System.out.println("Hello"+StringConcatenation.NULL);
+//     	System.out.println("Hello"+StringConcatenation.NULL);
 		
 		System.out.println(a+b);
 		System.out.println(x+y);

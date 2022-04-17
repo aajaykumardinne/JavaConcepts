@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class VirtualCapacity {
 
+	// Revised
 	public static void main(String[] args) {
 
 		ArrayList<Object> ar = new ArrayList<Object>(20);
