@@ -10,6 +10,7 @@ public class RemoveDuplicateElements {
 
 	public static void main(String[] args) {
 		
+		// Revised
 		ArrayList<Integer>  numbers = new ArrayList<Integer>(Arrays.asList(1,2,5,8,9,5,6,2,1,2,12,13,15,3,9));
 		
 		// 1.LinkedHashSet
@@ -18,7 +19,7 @@ public class RemoveDuplicateElements {
 		
 		ArrayList<Integer> numbersWithoutduplicates = new ArrayList<Integer>(linkedhashset);
 		
-		System.out.println( numbersWithoutduplicates);
+		System.out.println(numbersWithoutduplicates);
 		
 		
 		// 2. JDK - 8 - with streams

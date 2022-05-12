@@ -5,6 +5,7 @@ public class PalindromeNumber {
 	public static void isPalindrome(int num) {
 
 		// 141 243342 789987
+		System.out.println("Given number is:" +num);
 		int r = 0;
 		int sum = 0;
 		int t = 0;

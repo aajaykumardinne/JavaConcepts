@@ -2,6 +2,8 @@ package OOPSConceptPart1;
 
 public class LocalVsGlobalVariables {
 	
+	// Revised
+	
 	// global variables -- class variables
 	String name = "Aajay";
 	int age = 26;

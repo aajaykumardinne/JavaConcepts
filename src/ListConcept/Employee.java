@@ -2,15 +2,15 @@ package ListConcept;
 
 public class Employee {
 
-	
-	String name;   // global vars
+	// Revised
+	String name; // class vars
 	int age;
 	String dept;
-	
-	Employee(String name, int age,String dept){
-		this.name = name; // this.global var = local var 
+
+	public Employee(String name, int age, String dept) {
+		this.name = name; // this.class var = local var
 		this.age = age;
 		this.dept = dept;
 	}
-	
+
 }

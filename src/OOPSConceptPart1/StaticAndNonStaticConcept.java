@@ -2,6 +2,8 @@ package OOPSConceptPart1;
 
 public class StaticAndNonStaticConcept {
 	
+	// Revised
+	
 	// global vars: the scope of global vars will be available across all the functions with some condition.
 	
 	String name = "Aajay"; // non static global varble
